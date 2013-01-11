@@ -3,7 +3,6 @@ OpusVL-Website-.*\.tar.gz
 \.git
 blib
 MANIFEST.bak
-.*META.*
 .*_local.conf
 Makefile$
 pm_to_blib
