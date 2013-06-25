@@ -20,6 +20,7 @@ requires 'Config::General'; # This should reflect the config file format you've 
 
 requires 'OpusVL::AppKit';
 requires 'OpusVL::AppKitX::CMSView';
+requires 'Catalyst::Plugin::Session::Store::Cache';
 
 test_requires 'Test::More' => '0.88';
 catalyst;
