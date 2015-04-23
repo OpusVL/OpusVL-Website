@@ -27,4 +27,11 @@ catalyst;
 
 install_script glob('script/*.pl');
 auto_install;
+resources (
+    repository => {
+        url => 'ssh://git/srv/git/OpusVL-Website',
+        type => 'git',
+    },
+);
+
 WriteAll;
