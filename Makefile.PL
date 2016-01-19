@@ -8,6 +8,7 @@ use Module::Install::Catalyst; # Complain loudly if you don't have
 
 name 'OpusVL-Website';
 all_from 'lib/OpusVL/Website.pm';
+license 'perl';
 
 requires 'Catalyst::Runtime' => '5.90002';
 requires 'Catalyst::Plugin::ConfigLoader';
