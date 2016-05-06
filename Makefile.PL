@@ -26,7 +26,9 @@ requires 'Catalyst::Plugin::Session::Store::Cache';
 test_requires 'Test::More' => '0.88';
 catalyst;
 
-install_script glob('script/*.pl');
+#install_script glob('script/*.pl');
+install_script 'opusvl_website.psgi';
+
 auto_install;
 resources (
     repository => {
